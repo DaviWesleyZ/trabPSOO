@@ -1,0 +1,89 @@
+
+.primary-het {
+    background-color: #2aa298 !important;
+}
+
+html {
+    overflow: auto;
+}
+
+
+div.compact {
+    td, th{
+        padding: 0px 5px !important;
+
+        &:first-child {
+            padding-left: 24px !important
+        }
+    }
+}
+
+.compact-col {
+    width: 1px !important;
+    white-space: nowrap !important;
+    padding-right: 0px !important;
+}
+
+
+tr th {
+    outline: none;
+}
+
+.flex {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.v-text-field--single-line, .input-group--single-line, .v-input--checkbox {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    margin-top: 0px;
+
+    label {
+        top: 0;
+    }
+}
+
+
+.v-input--checkbox {
+    max-width: fit-content;
+}
+
+.v-text-field--single-line {
+    margin-top: 0px;
+}
+
+.menuable__content__active {
+    //min-width: 0px !important;
+}
+
+.v-snack__wrapper {
+    max-width: 768px !important;
+}
+
+textarea {
+    padding-bottom: 7px !important;
+}
+
+.btn-form {
+    margin-top: 12px;
+    margin-right: 0px;
+}
+
+td.large-col {
+    max-width: 200px;
+}
+
+.max-container {
+    margin: 0px;
+    padding: 0px !important;
+    max-width: 100%;
+}
+
+input[type=password] {
+    font-size: 25px
+}
+
+
+
+
